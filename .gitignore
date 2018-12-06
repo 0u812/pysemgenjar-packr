@@ -11,3 +11,4 @@ __pycache__
 /semgenjar/SemSimAPI.jar
 /build
 /dist
+/semgenjar/jsbml.log
