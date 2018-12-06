@@ -1,0 +1,13 @@
+*.egg-info
+__pycache__
+.pytest_cache
+.mypy_cache
+*.kate-swp
+/docs/_build
+/docs/reference
+*.pyc
+/semgenjar/semgenapi
+/semgenjar/jre
+/semgenjar/SemSimAPI.jar
+/build
+/dist
