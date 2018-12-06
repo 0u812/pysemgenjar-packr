@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='pysemgenjar-packr',
-      version='0.1.2',
+      version='0.1.3',
       description='Jar file and embedded openjdk for pysemgen',
       author='J. Kyle Medley',
       packages=['semgenjar'],
@@ -11,6 +11,7 @@ setup(name='pysemgenjar-packr',
       package_data={'semgenjar': [
           'semgenapi',
           'SemSimAPI.jar',
+          'config.json',
           'jre/*',
           'jre/**/*',
       ]},
