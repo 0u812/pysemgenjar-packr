@@ -10,6 +10,6 @@ p = Popen([],executable=join(dirname(__file__),'semgenapi'))
 sleep(2)
 
 from atexit import register
-@register
+# @register
 def cleanup():
     p.kill()
