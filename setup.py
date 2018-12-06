@@ -18,7 +18,7 @@ print('openjdk_files')
 print(openjdk_files)
 
 setup(name='pysemgenjar-packr',
-      version='0.1.4',
+      version='0.1.5',
       description='Jar file and embedded openjdk for pysemgen',
       author='J. Kyle Medley',
       packages=['semgenjar'],
