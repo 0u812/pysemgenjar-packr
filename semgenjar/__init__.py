@@ -6,7 +6,7 @@ from subprocess import Popen
 from os.path import join, dirname
 from time import sleep
 
-p = Popen([],executable=join(dirname(__file__),'semgenapi'))
+p = Popen([],executable=join(dirname(__file__),'semgenapi'),cwd=dirname(__file__))
 sleep(2)
 
 from atexit import register

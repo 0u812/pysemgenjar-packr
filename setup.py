@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='pysemgenjar-packr',
-      version='0.1.1',
+      version='0.1.2',
       description='Jar file and embedded openjdk for pysemgen',
       author='J. Kyle Medley',
       packages=['semgenjar'],
